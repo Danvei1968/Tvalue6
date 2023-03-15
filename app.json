@@ -1,0 +1,57 @@
+{
+  "id": "70003d49-9c97-4f7e-aaa5-fc51964aab95",
+  "name": "SOFT4Leasing-Tvalue",
+  "publisher": "PYA Solutions Inc.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./PYAlogo.png",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "21.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "21.0.0.0"
+    },
+    {
+      "id": "01ce44cb-892e-48cf-9cc3-9caa031fcab8",
+      "publisher": "Soft4",
+      "name": "SOFT4Leasing",
+      "version": "63.1.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 17022090,
+      "to": 17022179
+    },   
+    {
+      "from": 17022180,
+      "to": 17022229
+    },
+    {
+      "from": 17031430,
+      "to":  17031529
+    }     
+  ],
+  "contextSensitiveHelpUrl": "https://SOFT4Leasing-PYA.com/help/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+    },
+    
+  "target": "OnPrem"
+}

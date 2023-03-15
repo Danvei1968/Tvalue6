@@ -1,0 +1,16 @@
+#Rapid Application Development File
+/.vscode/rad.json
+#Symbols folder
+.alpackages/
+#Snapshots folder
+.snapshots/
+#Cache folder
+/.vscode/.alcache
+#Template folder
+/.vscode/.altemplates
+#Translation Base-file
+*.g.xlf
+#License-file
+*.flf
+#Extension App-file
+*.app
