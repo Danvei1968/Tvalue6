@@ -52,6 +52,6 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
     },
-    
+    "runtime": "10.1",
   "target": "OnPrem"
 }
