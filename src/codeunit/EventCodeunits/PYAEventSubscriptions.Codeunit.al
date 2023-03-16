@@ -1690,12 +1690,12 @@ codeunit 17022090 "S4LNA Event Subscriptions"
                 recFA.Modify();
             end;
 
-            if not recProduct.Get(recFA."S4LA Fin. Product Code") then
+            if not recProduct.Get(recFA."S4L Fin. Product Code") then
                 recProduct.Init();
 
             recSchedule.Reset();
             recSchedule.SetRange("Contract No.", recJnlLine."PYA Contract No");
-            recSchedule.SetRange("Schedule No.", recJnlLine."S4LA Schedule No.");
+            recSchedule.SetRange("Schedule No.", recJnlLine."PYA Contract No");
             recSchedule.SetFilter("Version status", '<>%1', recSchedule."Version status"::Old);
             if recSchedule.FindSet() then
                 //Schedule update
