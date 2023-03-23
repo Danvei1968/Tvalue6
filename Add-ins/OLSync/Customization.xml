@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customization>
+  <Object name="Category" custom="true">
+    <Property name="Name" custom="true" read-only="true"/>
+  </Object>
+  <Object name="Member" custom="true">
+    <Property name="Name" custom="true" read-only="true"/>
+  </Object>  
+  <Item name="ContactItem" custom="false">
+    <Property name="SMTPAddress1" custom="true" read-only="false"/>
+    <Property name="SMTPAddress2" custom="true" read-only="false"/>
+    <Property name="SMTPAddress3" custom="true" read-only="false"/>
+    <Property name="Categories" custom="false" read-only="true" collectionElement="Category"/>
+  </Item>
+  <Item name="AppointmentItem" custom="false">
+    <Property name="Categories" custom="false" read-only="true" collectionElement="Category"/>
+  </Item>
+  <Item name="TaskItem" custom="false">
+    <Property name="Categories" custom="false" read-only="true" collectionElement="Category"/>
+  </Item>
+  <Item name="DistListItem" custom="false">
+    <Property name="Members" custom="true" read-only="true" collectionElement="Member"/>
+  </Item>
+</Customization>

@@ -499,17 +499,16 @@ dotnet
         {
         }
     }
-
-    /* TODO
-    assembly("Microsoft.Office.Interop.Excel")
+    assembly("TValue6Engine2")
     {
-        Version = '15.0.0.0';
+        Version = '6.1.2.70';
         Culture = 'neutral';
-        PublicKeyToken = '71e9bce111e9429c';
-        type("Microsoft.Office.Interop.Excel.WorksheetFunction"; "WorksheetFunction")
-        {
+        PublicKeyToken = '';
+        type("TValue6Engine2.AmortizationLine"; "TVAmortizationLine")
+        { }
+        type("TValue6Engine2.TVDate"; "TVDate")
+        { }
 
-        }
     }
-    */
+
 }
